@@ -1,0 +1,15 @@
+node_modules
+build
+tests
+lib
+dist
+coverage
+es
+.tmp
+**/*-min.js
+**/*.min.js
+**/*.ejs
+package-lock.json
+yarn.lock
+public
+src/auto-imports.d.ts

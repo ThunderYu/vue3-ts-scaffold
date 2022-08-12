@@ -1,0 +1,20 @@
+# 忽略目录
+build
+lib
+es
+dist
+tests
+node_modules
+coverage/
+.vscode-test
+tmp
+.tmp
+__mocks__
+out
+__tests__
+docs
+public
+
+# 忽略文件
+**/*-min.js
+**/*.min.js
