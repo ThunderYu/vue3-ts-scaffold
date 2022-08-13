@@ -5,6 +5,7 @@
     "esbenp.prettier-vscode",
     "stylelint.vscode-stylelint",
     "vue.volar",
-    "christian-kohler.path-intellisense"
+    "christian-kohler.path-intellisense",
+    "bradlc.vscode-tailwindcss"
   ]
 }
