@@ -17,7 +17,6 @@ You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/
 
 # TODO
 
-- 限制包管理器为 pnpm
 - 初始样式调整
 - 调整初始目录结构
 - 使用 json-server 作为 mock 服务
