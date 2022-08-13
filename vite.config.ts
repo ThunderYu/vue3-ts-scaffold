@@ -15,7 +15,8 @@ export default defineConfig({
   plugins: [
     vue(),
     Components({
-      resolvers: [AntDesignVueResolver({ importStyle: 'less' })]
+      resolvers: [AntDesignVueResolver({ importStyle: 'less' })],
+      dts: 'src/components.d.ts'
     }),
     AutoImport({
       imports: ['vue', 'vue-router'],
