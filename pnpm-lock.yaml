@@ -6,6 +6,8 @@ specifiers:
   '@types/node': ^18.6.4
   '@typescript-eslint/eslint-plugin': ^5.32.0
   '@typescript-eslint/parser': ^5.32.0
+  '@unocss/preset-attributify': ^0.45.6
+  '@unocss/preset-uno': ^0.45.6
   '@vitejs/plugin-vue': ^3.0.0
   ant-design-vue: ^3.2.10
   autoprefixer: ^10.4.8
@@ -52,6 +54,8 @@ devDependencies:
   '@types/node': 18.6.4
   '@typescript-eslint/eslint-plugin': 5.32.0_iosr3hrei2tubxveewluhu5lhy
   '@typescript-eslint/parser': 5.32.0_qugx7qdu5zevzvxaiqyxfiwquq
+  '@unocss/preset-attributify': 0.45.6
+  '@unocss/preset-uno': 0.45.6
   '@vitejs/plugin-vue': 3.0.1_vite@3.0.4+vue@3.2.37
   autoprefixer: 10.4.8_postcss@8.4.14
   commitizen: 4.2.5

@@ -6,6 +6,7 @@
     "stylelint.vscode-stylelint",
     "vue.volar",
     "christian-kohler.path-intellisense",
-    "antfu.unocss"
+    "antfu.unocss",
+    "usernamehw.errorlens"
   ]
 }
