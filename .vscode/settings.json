@@ -18,7 +18,9 @@
     "commitlint",
     "pinia",
     "vite",
-    "preinstall"
+    "preinstall",
+    "unocss",
+    "attributify"
   ],
   "path-intellisense.mappings": {
     "@": "${workspaceRoot}/src"

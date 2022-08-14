@@ -7,7 +7,14 @@ const count = ref(0);
   <h1>{{ msg }}</h1>
 
   <div class="card">
-    <h1 class="text-3xl font-bold underline">Hello Tailwind CSS!</h1>
+    <h1
+      class="text-3xl font-bold underline"
+      animate-bounce-in
+      animate-count-infinite
+      animate-duration-1s
+    >
+      Hello UnoCSS!
+    </h1>
     <a-button type="primary" @click="count++">count is {{ count }}</a-button>
     <p>
       Edit
