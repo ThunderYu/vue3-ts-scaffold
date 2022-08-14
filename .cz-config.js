@@ -3,17 +3,21 @@ module.exports = {
   types: [
     { value: 'feat', name: '✨ 新增:  新功能' },
     { value: 'fix', name: '🐛 修复:  修复bug' },
-    { value: 'docs', name: '📝 文档:  文档变更' },
+    { value: 'wip', name: '🚧 暂存:  开发中，临时提交' },
     { value: 'style', name: '💄 格式:  代码格式(不影响代码运行的变动)' },
     {
       value: 'refactor',
       name: '♻️  重构:  代码重构(既不是增加feature，也不是修复bug)'
     },
-    { value: 'perf', name: '⚡️ 性能:  性能优化' },
-    { value: 'test', name: '✅ 测试:  增加一个测试' },
-    { value: 'chore', name: '🔧 工具:  构建过程或辅助工具的变动' },
     { value: 'revert', name: '⏪ 回滚:  代码回退' },
-    { value: 'build', name: '🚀 打包:  打包发布' }
+    { value: 'perf', name: '⚡️ 性能:  性能优化' },
+    { value: 'docs', name: '📝 文档:  文档变更' },
+    { value: 'test', name: '✅ 测试:  增加一个测试' },
+    { value: 'types', name: '✏️  类型:  ts类型声明文件改动' },
+    { value: 'chore', name: '🔧 工具:  辅助工具的变动' },
+    { value: 'build', name: '🔨 构建:  影响项目构建或依赖项修改' },
+    { value: 'ci', name: '👷 集成:  持续集成相关改动' },
+    { value: 'release', name: '🚀 发布:  发布新版本' }
   ],
   // 影响范围
   scopes: [
