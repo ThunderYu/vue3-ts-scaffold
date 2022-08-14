@@ -24,3 +24,5 @@ You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/
 - 允许使用 jsx 开发
 - 添加环境配置文件
 - 集成 axios
+- 使用 unocss 替换 tailwindcss
+- 完善 git 提交类型

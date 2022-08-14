@@ -18,8 +18,7 @@
     "commitlint",
     "pinia",
     "vite",
-    "preinstall",
-    "tailwindcss"
+    "preinstall"
   ],
   "path-intellisense.mappings": {
     "@": "${workspaceRoot}/src"
