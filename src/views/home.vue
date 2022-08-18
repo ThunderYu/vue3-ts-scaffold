@@ -1,11 +1,9 @@
 <script setup lang="ts">
-import { storeToRefs } from 'pinia';
 import HelloWorld from '@/components/HelloWorld.vue';
 import { useUserStore } from '@/store/modules/user';
 const userStore = useUserStore();
-const { userName } = storeToRefs(userStore);
 const msg = computed(() => {
-  return `Hello, ${userName.value}`;
+  return `Hello, ${userStore.userName}`;
 });
 </script>
 
