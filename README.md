@@ -20,6 +20,4 @@ You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/
 - 使用 json-server 作为 mock 服务
 - 参考 vue-vben-admin 项目配置.vscode 目录
 - 允许使用 jsx 开发
-- 添加环境配置文件
 - 集成 axios
-- 将 index.html 的 title 改为通过变量配置
