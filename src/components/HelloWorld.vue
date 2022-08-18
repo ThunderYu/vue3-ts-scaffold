@@ -9,7 +9,7 @@ const count = ref(0);
   <div class="card">
     <h1
       class="text-3xl font-bold underline"
-      animate-bounce-in
+      animate-bounce-alt
       animate-count-infinite
       animate-duration-1s
     >

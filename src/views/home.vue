@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import HelloWorld from '@/components/HelloWorld.vue';
 import { useUserStore } from '@/store/modules/user';
 const userStore = useUserStore();
 const msg = computed(() => {
