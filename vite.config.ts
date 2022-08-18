@@ -1,6 +1,7 @@
 import path from 'path';
 import { UserConfigExport, ConfigEnv, loadEnv } from 'vite';
 import vue from '@vitejs/plugin-vue';
+import vueJsx from '@vitejs/plugin-vue-jsx';
 import { createHtmlPlugin } from 'vite-plugin-html';
 import Components from 'unplugin-vue-components/vite';
 import { AntDesignVueResolver } from 'unplugin-vue-components/resolvers';
@@ -30,6 +31,7 @@ export default ({ mode }: ConfigEnv): UserConfigExport => {
     },
     plugins: [
       vue(),
+      vueJsx(),
       Components({
         resolvers: [AntDesignVueResolver({ importStyle: 'less' })],
         dts: 'types/components.d.ts'

@@ -31,6 +31,7 @@
     "@unocss/preset-attributify": "^0.45.6",
     "@unocss/preset-uno": "^0.45.6",
     "@vitejs/plugin-vue": "^3.0.0",
+    "@vitejs/plugin-vue-jsx": "^2.0.0",
     "autoprefixer": "^10.4.8",
     "commitizen": "^4.2.5",
     "commitlint": "^17.0.3",
