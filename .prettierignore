@@ -12,5 +12,5 @@ es
 package-lock.json
 yarn.lock
 public
-src/auto-imports.d.ts
-src/components.d.ts
+types/auto-imports.d.ts
+types/components.d.ts
