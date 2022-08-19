@@ -27,6 +27,8 @@ module.exports = {
     }
   },
   rules: {
-    'vue/multi-word-component-names': 'off'
+    'vue/multi-word-component-names': 'off',
+    // 关闭使用any类型时的警告
+    '@typescript-eslint/no-explicit-any': 'off'
   }
 };

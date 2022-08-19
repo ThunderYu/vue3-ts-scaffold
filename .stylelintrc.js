@@ -40,6 +40,8 @@ module.exports = {
         ignorePseudoClasses: ['deep']
       }
     ],
+    // 取消行内样式结尾的分号校验
+    'declaration-block-trailing-semicolon': null,
     // 指定样式的排序
     'order/properties-order': [
       'position',

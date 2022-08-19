@@ -1,8 +1,12 @@
 <script setup lang="ts">
 import { useUserStore } from '@/store/modules/user';
+import DemoComponent from '../components/DemoComponent.vue';
 const userStore = useUserStore();
-const msg = computed(() => {
-  return `Hello, ${userStore.userName}`;
+
+let name = ref<string>(userStore.userName);
+
+const welcomeMsg = computed(() => {
+  return `Hello, ${name.value}`;
 });
 </script>
 
@@ -15,7 +19,12 @@ const msg = computed(() => {
       <img src="../assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld :msg="msg" />
+  <DemoComponent :msg="welcomeMsg" />
+  <a-input
+    v-model:value="name"
+    placeholder="你是谁？"
+    style="width: 200px"
+  ></a-input>
 </template>
 
 <style scoped>
