@@ -7,6 +7,7 @@
     "preinstall": "npx only-allow pnpm",
     "prepare": "husky install",
     "dev": "vite",
+    "start": "vite",
     "build": "vue-tsc --noEmit && vite build",
     "commit": "git cz",
     "preview": "vite preview",
@@ -18,6 +19,7 @@
   },
   "dependencies": {
     "@ant-design/icons-vue": "^6.1.0",
+    "@vueuse/core": "^9.2.0",
     "ant-design-vue": "^3.2.10",
     "axios": "^0.27.2",
     "dayjs": "^1.11.5",

@@ -20,7 +20,8 @@
     "vite",
     "preinstall",
     "unocss",
-    "attributify"
+    "attributify",
+    "vueuse"
   ],
   "path-intellisense.mappings": {
     "@": "${workspaceRoot}/src"
