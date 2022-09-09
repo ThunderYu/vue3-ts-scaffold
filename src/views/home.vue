@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { useRouter } from 'vue-router';
 import { useUserStore } from '@/store/modules/user';
-import DemoComponent from '../components/DemoComponent.vue';
 const userStore = useUserStore();
 const router = useRouter();
 

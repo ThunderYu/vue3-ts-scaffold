@@ -1,5 +1,8 @@
 <script setup lang="ts">
-defineProps<{ msg: string }>();
+defineProps<{
+  /** 要展示的信息 */
+  msg: string;
+}>();
 const count = ref(0);
 </script>
 

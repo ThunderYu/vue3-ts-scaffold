@@ -20,3 +20,4 @@ You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/
 - 使用 json-server 作为 mock 服务
 - 参考 vue-vben-admin 项目配置.vscode 目录
 - 添加代理配置
+- 提取配置项到 config 目录
